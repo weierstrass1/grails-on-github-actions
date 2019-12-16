@@ -1,7 +1,7 @@
 To setup Github Actions, create a file:
 
 [source,yaml]
-.github/workflows/gradle.yml
+..github/workflows/gradle.yml
 ----
 include::{sourceDir}/../.github/workflows/gradle.yml[]
 ----
