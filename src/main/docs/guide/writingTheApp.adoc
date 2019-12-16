@@ -1,7 +1,7 @@
 The `initial` project contains a Grails Application created with the `web`
 with the http://start.grails.org[Grails Application Forge].
 
-Using the `geb2` feature modifies your build.gradle as follows:
+Your build file `build.gradle` is setup to run Geb tests seamlessly:
 
 [source, groovy]
 .gradle.properties
