@@ -1,9 +1,19 @@
-Setup Github Actions
+To setup Github Actions, create a file:
 
-____
-GitHub Actions makes it easy to automate all your software workflows, now with world-class CI/CD. Build, test, and deploy your code right from GitHub. Make code reviews, branch management, and issue triaging work the way you want.
-____
-
-Create a file:
-
+[source,yaml]
+.github/workflows/gradle.yml
+----
 include::{sourceDir}/../.github/workflows/gradle.yml[]
+----
+
+<1> Run Github action for pushes to branch `master`.
+<2> Run Github action for pull requests targeting branch `master`.
+<3> Run Github action for JDK 8 and 11
+<4> Setup Gradle cache
+<5> Run tests
+
+When you push the code to Github you will see the Grails tests run with both JDK 8 and JDK 11.
+
+image::githubactions-1.png[]
+
+image::githubactions-2.png[]
