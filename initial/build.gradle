@@ -79,8 +79,8 @@ dependencies {
 }
 
 webdriverBinaries {
-    chromedriver "${chromeDriverVersion}"  
-    geckodriver "${geckodriverVersion}" 
+    chromedriver '78.0.3904.105'
+    geckodriver '0.26.0'
 }
 
 bootRun {
